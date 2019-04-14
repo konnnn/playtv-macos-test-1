@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DAA60A22626B36005EACF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAA60922626B36005EACF3 /* AppDelegate.swift */; };
+		44DAA60C22626B36005EACF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAA60B22626B36005EACF3 /* MainViewController.swift */; };
+		44DAA60E22626B38005EACF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DAA60D22626B38005EACF3 /* Assets.xcassets */; };
+		44DAA61122626B38005EACF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DAA60F22626B38005EACF3 /* Main.storyboard */; };
+		E43C84DFBEF636673D2587C0 /* Pods_playtv_macos_test_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBE874A94D60084FD6EE093 /* Pods_playtv_macos_test_1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CBE874A94D60084FD6EE093 /* Pods_playtv_macos_test_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playtv_macos_test_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DAA60622626B36005EACF3 /* playtv-macos-test-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playtv-macos-test-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DAA60922626B36005EACF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44DAA60B22626B36005EACF3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		44DAA60D22626B38005EACF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44DAA61022626B38005EACF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44DAA61222626B38005EACF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DAA61322626B38005EACF3 /* playtv_macos_test_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playtv_macos_test_1.entitlements; sourceTree = "<group>"; };
+		857139B0F256FAE4BA090DBC /* Pods-playtv-macos-test-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playtv-macos-test-1.release.xcconfig"; path = "Target Support Files/Pods-playtv-macos-test-1/Pods-playtv-macos-test-1.release.xcconfig"; sourceTree = "<group>"; };
+		C618D964F305B1EC511A9DB8 /* Pods-playtv-macos-test-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playtv-macos-test-1.debug.xcconfig"; path = "Target Support Files/Pods-playtv-macos-test-1/Pods-playtv-macos-test-1.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44DAA60322626B36005EACF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43C84DFBEF636673D2587C0 /* Pods_playtv_macos_test_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D90119030C24D009D57A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CBE874A94D60084FD6EE093 /* Pods_playtv_macos_test_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C0906403E8EF5C02D84231F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C618D964F305B1EC511A9DB8 /* Pods-playtv-macos-test-1.debug.xcconfig */,
+				857139B0F256FAE4BA090DBC /* Pods-playtv-macos-test-1.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44DAA5FD22626B36005EACF3 = {
+			isa = PBXGroup;
+			children = (
+				44DAA60822626B36005EACF3 /* playtv-macos-test-1 */,
+				44DAA60722626B36005EACF3 /* Products */,
+				11D90119030C24D009D57A1A /* Frameworks */,
+				2C0906403E8EF5C02D84231F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		44DAA60722626B36005EACF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44DAA60622626B36005EACF3 /* playtv-macos-test-1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44DAA60822626B36005EACF3 /* playtv-macos-test-1 */ = {
+			isa = PBXGroup;
+			children = (
+				44DAA60922626B36005EACF3 /* AppDelegate.swift */,
+				44DAA60B22626B36005EACF3 /* MainViewController.swift */,
+				44DAA60D22626B38005EACF3 /* Assets.xcassets */,
+				44DAA60F22626B38005EACF3 /* Main.storyboard */,
+				44DAA61222626B38005EACF3 /* Info.plist */,
+				44DAA61322626B38005EACF3 /* playtv_macos_test_1.entitlements */,
+			);
+			path = "playtv-macos-test-1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44DAA60522626B36005EACF3 /* playtv-macos-test-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DAA61622626B38005EACF3 /* Build configuration list for PBXNativeTarget "playtv-macos-test-1" */;
+			buildPhases = (
+				6B09951C8B3E2EF5C76A4CE3 /* [CP] Check Pods Manifest.lock */,
+				44DAA60222626B36005EACF3 /* Sources */,
+				44DAA60322626B36005EACF3 /* Frameworks */,
+				44DAA60422626B36005EACF3 /* Resources */,
+				08F913A7B81F059F4D6E9CF0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "playtv-macos-test-1";
+			productName = "playtv-macos-test-1";
+			productReference = 44DAA60622626B36005EACF3 /* playtv-macos-test-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DAA5FE22626B36005EACF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Evgeny Konkin";
+				TargetAttributes = {
+					44DAA60522626B36005EACF3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 44DAA60122626B36005EACF3 /* Build configuration list for PBXProject "playtv-macos-test-1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44DAA5FD22626B36005EACF3;
+			productRefGroup = 44DAA60722626B36005EACF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DAA60522626B36005EACF3 /* playtv-macos-test-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44DAA60422626B36005EACF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DAA60E22626B38005EACF3 /* Assets.xcassets in Resources */,
+				44DAA61122626B38005EACF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F913A7B81F059F4D6E9CF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-playtv-macos-test-1/Pods-playtv-macos-test-1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-playtv-macos-test-1/Pods-playtv-macos-test-1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B09951C8B3E2EF5C76A4CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playtv-macos-test-1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DAA60222626B36005EACF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DAA60C22626B36005EACF3 /* MainViewController.swift in Sources */,
+				44DAA60A22626B36005EACF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44DAA60F22626B38005EACF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DAA61022626B38005EACF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44DAA61422626B38005EACF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44DAA61522626B38005EACF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		44DAA61722626B38005EACF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C618D964F305B1EC511A9DB8 /* Pods-playtv-macos-test-1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QCUWQ59NQL;
+				INFOPLIST_FILE = "playtv-macos-test-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgenykonkin.playtv-macos-test-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		44DAA61822626B38005EACF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857139B0F256FAE4BA090DBC /* Pods-playtv-macos-test-1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QCUWQ59NQL;
+				INFOPLIST_FILE = "playtv-macos-test-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgenykonkin.playtv-macos-test-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44DAA60122626B36005EACF3 /* Build configuration list for PBXProject "playtv-macos-test-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DAA61422626B38005EACF3 /* Debug */,
+				44DAA61522626B38005EACF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DAA61622626B38005EACF3 /* Build configuration list for PBXNativeTarget "playtv-macos-test-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DAA61722626B38005EACF3 /* Debug */,
+				44DAA61822626B38005EACF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44DAA5FE22626B36005EACF3 /* Project object */;
+}
