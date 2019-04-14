@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447F9CCF2263B87E00FF6B49 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F9CCE2263B87E00FF6B49 /* Data.swift */; };
 		44DAA60A22626B36005EACF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAA60922626B36005EACF3 /* AppDelegate.swift */; };
 		44DAA60C22626B36005EACF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAA60B22626B36005EACF3 /* MainViewController.swift */; };
 		44DAA60E22626B38005EACF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DAA60D22626B38005EACF3 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		3CBE874A94D60084FD6EE093 /* Pods_playtv_macos_test_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playtv_macos_test_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447F9CCE2263B87E00FF6B49 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		44DAA60622626B36005EACF3 /* playtv-macos-test-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playtv-macos-test-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DAA60922626B36005EACF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DAA60B22626B36005EACF3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +55,6 @@
 				C618D964F305B1EC511A9DB8 /* Pods-playtv-macos-test-1.debug.xcconfig */,
 				857139B0F256FAE4BA090DBC /* Pods-playtv-macos-test-1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 			children = (
 				44DAA60922626B36005EACF3 /* AppDelegate.swift */,
 				44DAA60B22626B36005EACF3 /* MainViewController.swift */,
+				447F9CCE2263B87E00FF6B49 /* Data.swift */,
 				44DAA60D22626B38005EACF3 /* Assets.xcassets */,
 				44DAA60F22626B38005EACF3 /* Main.storyboard */,
 				44DAA61222626B38005EACF3 /* Info.plist */,
@@ -210,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44DAA60C22626B36005EACF3 /* MainViewController.swift in Sources */,
+				447F9CCF2263B87E00FF6B49 /* Data.swift in Sources */,
 				44DAA60A22626B36005EACF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
